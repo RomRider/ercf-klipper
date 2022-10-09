@@ -2,9 +2,17 @@ Macros and python module for the ERCF V1.1
 
 Refer to the ERCF manual for their installation and usage
 
-Forked from the [ERCF Project](https://github.com/EtteGit/EnragedRabbitProject).
+Forked from the [ERCF Project](https://github.com/EtteGit/EnragedRabbitProject). Same licence applies.
 
-# Add it as a service in Moonraker
+# Using this repo
+
+## Install
+```sh
+cd ~/klipper_config
+git clone https://github.com/RomRider/ercf-klipper.git
+```
+
+## Add it as a service in Moonraker
 
 ```ini
 [update_manager ERCF-Config]
