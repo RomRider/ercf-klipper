@@ -4,6 +4,19 @@ Refer to the ERCF manual for their installation and usage
 
 Forked from the [ERCF Project](https://github.com/EtteGit/EnragedRabbitProject).
 
+# Add it as a service in Moonraker
+
+```ini
+[update_manager ERCF-Config]
+type: git_repo
+path: /home/pi/klipper_config/ercf_klipper
+origin: https://github.com/RomRider/ercf-klipper.git
+install_script: scripts/install.sh
+is_system_service: False
+managed_services: klipper
+primary_branch: main
+```
+
 # How to maintain
 
 ## When cloning as a new repo
